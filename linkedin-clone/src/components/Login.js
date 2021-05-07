@@ -19,8 +19,7 @@ const Login = (props) => {
                 </Hero>
                 <Form>
                     <Google>
-                        <img src="/signin.png"/>
-                        Sign in with Google
+                        <img src="/signin.jpg"/>    
                     </Google>
                 </Form>
             </Section>
@@ -108,6 +107,7 @@ margin: auto;
 
 const Hero = styled.a`
 width: 100%;
+
 h1{
 padding-bottom: 0;
 width: 55%;
@@ -116,16 +116,15 @@ color: #2977c9;
 font-weight: 200;
 line-height: 70px;
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
-
 @media (max-width: 768px){
     text-align: center;
     font-size: 20px;
     width: 100%;
     line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 }
 
@@ -168,13 +167,18 @@ z-index: 0;
 transition-duration: 167ms;
 font-size: 20px;
 color: rgba(0, 0, 0, 0.6);
+margin: auto;
 
 &:hover{
     background-color: rgba(207, 207, 207, 0.25);
     color: rgba(0, 0, 0, 0.75);
 }
 
+& > img {
+    justify-content: center;
+    align-items: center;
+}
+
 `;
 
-  
 export default Login;

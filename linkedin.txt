@@ -1,0 +1,12 @@
+Linked-in.
+responsive- mobile version
+signin with google -- google athentication
+firebase
+lefthandside- card
+righthandside - feed
+make a post
+searchbar
+upload image in post, video linkes
+
+react router dom
+styled components
