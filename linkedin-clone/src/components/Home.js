@@ -1,5 +1,8 @@
 
 import styled from 'styled-components';
+import LeftSide from './LeftSide';
+import RightSide from './RightSide';
+import Main from './Main';
 
 const Home = (props) => {
     return (
@@ -11,9 +14,9 @@ const Home = (props) => {
                 <p>Find talented props in record time with Upwork and keep business moving.</p>
             </Section>
             <Layout>
-                <div>Left</div>
-                <div>Main</div>
-                <div>Right</div>
+                <LeftSide />
+                <Main />
+                <RightSide />
             </Layout>
         </Container>
     );
@@ -55,10 +58,10 @@ justify-content: center;
 const Layout = styled.div`
 display: grid;
 grid-template-areas: "left main right";
-grid-template-columns: minmax(0, 0.5fr) minmax(0, 12fr) minmax(300px, 7fr);
+grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
 column-gap: 25px;
 row-gap: 25px;
-margin: 25px 0;
+margin: 25px ;
 
 @media (max-width: 768px){
     display: flex;

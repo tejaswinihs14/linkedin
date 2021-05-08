@@ -98,9 +98,9 @@ z-index: 100;
 const Content = styled.div`
 display: flex;
 align-items: center;
-margin: 0 auto;
+/* margin: 0 auto; */
 min-height: 100%;
-max-width: 1128px;`;
+max-width: 1480px;`;
 
 const Logo = styled.span`
 margin-right: 8px;
@@ -135,7 +135,7 @@ width: 40px;
 position: absolute;
 z-index: 1;
 top: 20px;
-left: 270px;
+left: 70px;
 border-radius: 0 2px 2px 0;
 margin: 0;
 display: flex;
