@@ -19,7 +19,7 @@ const Login = (props) => {
                 </Hero>
                 <Form>
                     <Google>
-                        <img src="/signin.jpg"/>    
+                        <img src="/signin.png"/>    
                     </Google>
                 </Form>
             </Section>
