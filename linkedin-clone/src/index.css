@@ -1,8 +1,7 @@
-body{
+body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 
 :root,
 body,
@@ -11,32 +10,32 @@ html {
   box-sizing: border-box;
 }
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- header, 
- image,
- i,
- label, 
- span,
- ul,
- li,
- small,
- p,
- html,
- nav {
-   padding: 0;
-   margin: 0;
-   border: 0;
-   outline: none;
-   font-size: 100%;
-   vertical-align: baseline;
-   background: transparent
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+image,
+i,
+label,
+span,
+ul,
+li,
+small,
+p,
+html,
+nav {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 
- body{
-   font-family: Arial, sans-serif;
- }
+body {
+  font-family: Arial, sans-serif;
+}
