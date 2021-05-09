@@ -10,3 +10,11 @@ upload image in post, video linkes
 
 react router dom
 styled components
+
+media query
+grid layout - section division
+
+rap entire app in redux store
+redux without redux tool kit
+
+map state to props
