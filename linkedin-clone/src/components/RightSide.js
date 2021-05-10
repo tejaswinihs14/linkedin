@@ -34,7 +34,7 @@ const RightSide = (props) => {
         </Recommendation>
       </FollowCard>
       <BannerCard>
-        <img src="https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg" />
+        <img src="/jobs-ad.jpg" />
       </BannerCard>
     </Container>
   );
