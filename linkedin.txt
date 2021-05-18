@@ -8,6 +8,9 @@ make a post
 searchbar
 upload image in post, video linkes
 
+google auth integration
+file input for upload images
+
 react router dom
 styled components
 

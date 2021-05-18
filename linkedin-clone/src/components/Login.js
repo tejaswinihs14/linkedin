@@ -106,6 +106,9 @@ const Section = styled.a`
   @media (max-width: 768px) {
     margin: auto;
     min-height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
